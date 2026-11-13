@@ -18,14 +18,14 @@ npm run preview    # serve the production build
 3. **Contact form (optional):** without configuration the form opens the visitor's email app pre-filled.
    To receive messages directly, create a free form at [Formspree](https://formspree.io), copy `.env.example` to `.env`
    and set `VITE_FORM_ENDPOINT`, or add that variable in your hosting dashboard.
-4. **SEO:** after deploying, add a `<link rel="canonical">` and `og:url` with your domain in `index.html`.
+4. **SEO:** canonical URL is set to the GitHub Pages address in `index.html`; update it if you move to a custom domain.
 
 All text content (skills, projects, certifications, contact details) lives in `src/data/portfolio.ts`.
 
 ## Deploy
 
 - **Vercel / Netlify:** import the repo — build command `npm run build`, output directory `dist`.
-- **GitHub Pages:** run `npm run build` and publish the `dist/` folder (asset paths are relative, so sub-paths work).
+- **GitHub Pages (current):** live at https://nimrah24.github.io/portfolio/ — run `npm run deploy` to publish changes.
 
 ## Structure
 
