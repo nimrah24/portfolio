@@ -13,8 +13,8 @@ npm run preview    # serve the production build
 
 ## Before deploying — checklist
 
-1. **Resume:** replace `public/resume.pdf` with the real resume (keep the same file name).
-2. **Project repo links:** fill the `github: ''` fields in `src/data/portfolio.ts`. Empty links show "Repository link coming soon".
+1. **Resume:** to update it, replace `public/resume.pdf` (keep the same file name).
+2. **Project repo links:** fill the `github: ''` fields in `src/data/portfolio.ts`. Empty links point to the GitHub profile.
 3. **Contact form (optional):** without configuration the form opens the visitor's email app pre-filled.
    To receive messages directly, create a free form at [Formspree](https://formspree.io), copy `.env.example` to `.env`
    and set `VITE_FORM_ENDPOINT`, or add that variable in your hosting dashboard.
